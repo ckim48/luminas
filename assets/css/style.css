@@ -773,12 +773,18 @@ p{
   font-weight: 700;
   color: #4B80D8;
 }
+#news h3{
 
+}
+
+#news p{
+  color:#666666;
+}
 .why-us .box h4 {
   font-size: 20px;
   font-weight: 600;
   padding: 0;
-  margin: 20px 0;
+  margin: 10px 0;
   color: #2a2a2a;
 }
 
@@ -798,22 +804,24 @@ p{
   margin-top: 12px;
 
 }
+
+.no-text{
+  list-style: none;
+}
 .why-us .box button:hover{
 
 color: #B2B2B2 !important;
 }
 
-.why-us .box a {
+.box a {
   display: block;
   color: #6F6F6F;
-  font-size: 15px;
-  text-decoration: underline;
+  font-size: 16px;
+  text-decoration: none;
+  background: none;
+  border: none;
   margin-top: 12px;
 
-}
-.why-us .box a:hover{
-
-color: #B2B2B2 !important;
 }
 
 .why-us .box:hover {
@@ -1052,7 +1060,30 @@ color: #B2B2B2 !important;
   font-size: 13px;
   padding-top: 5px;
 }
+.contact .info-item {
+  background: #F5F5F5;
+  padding: 30px;
+}
 
+.contact .info-item i {
+  font-size: 38px;
+  line-height: 0;
+  color: var(--accent-color);
+}
+
+.contact .info-item h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact .info-item p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 16px;
+  color:#666666;
+  margin-bottom: 0;
+}
 .section-with-border {
   position: relative;
   padding-bottom: 55px; /* Adjust as needed to create space between content and border line */
