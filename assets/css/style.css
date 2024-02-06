@@ -1083,12 +1083,10 @@ color: #B2B2B2 !important;
 }
 @media (max-width: 768px) {
   .contact .info-item {
-        display: block; 
 
 
-    width:270px;
+/*    width:270px;*/
   padding: 30px 5px 30px 5px;
-      margin: 0 auto !important; /* Center the item horizontally */
 
 
 }
