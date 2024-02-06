@@ -775,6 +775,11 @@ font-size: 18px;
   .section-header p {
     max-width: 60%;
   }
+  .btn-get-started{
+    font-size: 14px;
+    padding: 12px 25px;
+
+  }
 }
 /*--------------------------------------------------------------
 # Why Us
