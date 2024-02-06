@@ -771,16 +771,7 @@ font-size: 18px;
   }
 }
 
-@media (min-width: 1199px) {
-  .section-header p {
-    max-width: 60%;
-  }
-  .btn-get-started{
-    font-size: 14px;
-    padding: 12px 25px;
 
-  }
-}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -1160,7 +1151,24 @@ color: #B2B2B2 !important;
 }
 @media (min-width: 1199px) {
   .section-header p {
-    max-width: 60%;
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 800px) {
+.section-header h2{
+  font-size: 28px;
+}
+.section-header h2:before,
+.section-header h2:after {
+
+  width: 15px;
+
+}
+  .btn-get-started{
+    font-size: 14px;
+    padding: 12px 25px;
+
   }
 }
 
