@@ -1095,8 +1095,9 @@ color: #B2B2B2 !important;
 }
   }
 .contact .info-item {
-  background: #F5F5F5;
+  background: #F9FAFF;
   padding: 30px;
+  border-radius: 10px;
 }
 
 .contact .info-item i {
