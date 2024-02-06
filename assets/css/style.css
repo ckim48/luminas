@@ -1081,6 +1081,18 @@ color: #B2B2B2 !important;
   font-size: 13px;
   padding-top: 5px;
 }
+@media (max-width: 768px) {
+  .contact .info-item {
+        display: block; 
+
+
+    width:270px;
+  padding: 30px 5px 30px 5px;
+      margin: 0 auto !important; /* Center the item horizontally */
+
+
+}
+  }
 .contact .info-item {
   background: #F5F5F5;
   padding: 30px;
@@ -1105,6 +1117,8 @@ color: #B2B2B2 !important;
   color:#666666;
   margin-bottom: 0;
 }
+
+
 .section-header {
   text-align: center;
   padding-bottom: 70px;
@@ -1157,7 +1171,7 @@ color: #B2B2B2 !important;
 
 @media (max-width: 800px) {
 .section-header h2{
-  font-size: 28px;
+  font-size: 27px;
 }
 .section-header h2:before,
 .section-header h2:after {
